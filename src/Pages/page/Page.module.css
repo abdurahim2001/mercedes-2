@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(236, 236, 233);
+    font-size: 35px;
+}
+.nav img:hover{
+    transform: scale(1.1);
+    transition: .2s ease-in;
+
+}
+
+.nav img{
+    width: 180px;
+    transition: .2s ease-in;
+}

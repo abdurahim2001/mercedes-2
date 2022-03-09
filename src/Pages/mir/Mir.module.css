@@ -1,0 +1,18 @@
+.menu{
+   display: flex;
+    justify-content: space-evenly;
+    padding: 4rem;
+}
+.menu a{
+    text-decoration: none;
+    color: azure;
+    background-color: rgba(240, 255, 255, 0.342);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px; 
+  
+}
+.menu a:hover{
+     
+    color: rgb(30, 192, 204);
+}

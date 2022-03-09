@@ -1,0 +1,36 @@
+
+.mane {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+.mane img{
+    width: 300px;
+}
+.mane img:hover{
+    width: 315px;
+}
+.mane_1{
+ display: block;
+}
+.mane_1 a{
+    display: flex;
+    justify-content: center;
+    color: rgb(206, 212, 212);
+    text-decoration: none;
+  
+}
+.mane_a{
+    background-color: rgba(240, 255, 255, 0.274);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+.mane_1:hover{
+    font-size: 27px;
+   
+}
+.mane_a:hover{
+    color: rgb(10, 112, 95);
+}

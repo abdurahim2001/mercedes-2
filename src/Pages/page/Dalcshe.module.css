@@ -1,0 +1,79 @@
+.novyi_2{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.novyi_2 img{
+   position: absolute;
+   width: 60rem;
+   object-fit: cover;
+}
+.novyi_2 button{
+   position: relative;
+   z-index: 2;
+   display: flex;
+   flex: 1 1 auto  ;
+   text-align: center;
+   align-items: center;
+   border-radius: 20px;
+   width: 10vh;
+   font-size: 0;
+   color: aliceblue;
+   background-color: rgb(44, 172, 12);
+}
+.noy{
+    display: flex;
+    justify-content: space-between;
+    gap: 60rem;
+    padding-top: 5rem;
+}
+.svg{
+    position: absolute;
+    color: rgb(19, 19, 20);
+    display: flex;
+    padding: 0px 50px 0px 50px;
+    border-radius: 15px;
+}
+
+
+button{
+  
+   color: black; 
+   border: 2px solid #4CAF50;
+}
+
+
+.div{
+   color: aliceblue;
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: column;
+   padding-top: 2.5rem;
+}
+.div_img img{
+   width: 400px;
+   border-radius: 10px;
+}
+.div_img{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   position: relative;
+   min-height: 100vh;
+   display: flex;
+}
+.div_img_1{
+   display: flex;
+   gap: 1rem;
+}
+.noy_text h1{
+   position: absolute;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   font-size: 0px;
+   flex-direction: column;
+   
+}
