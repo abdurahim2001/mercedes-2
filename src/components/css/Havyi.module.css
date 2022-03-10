@@ -58,3 +58,65 @@
     gap: 2rem;
 }
 
+@media  (min-width:600px ) and (  max-width:1380px){
+    .section{
+        margin-left: 15rem;
+        
+    }
+    
+    .menu_tex{
+        display: flex;
+        justify-content: center;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+    .tesla img{
+         width: 80px;
+         border-radius: 50%;
+         padding: 5px;
+         outline: 3px solid #04ec2b;
+         outline-offset: 4px;
+    }
+    .tesla {
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         gap: 0;
+         background: rgb(37, 37, 37);
+         backdrop-filter: blur(10px);
+         -webkit-backdrop-filter: blur(10px);
+         border-radius: 20px;
+         padding: 1rem;
+        
+        
+    }
+    .tesla_img{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .menu_1 h1{
+        color: antiquewhite;
+    }
+    .tesla p{
+        color: aliceblue;
+    }
+    .tesla_img  h6 {
+        color: rgba(235, 227, 227, 0.596);
+        font-size:15px ;
+    }
+    .tesla  h1 {
+        color: rgb(196, 32, 32);
+        font-size: 20px;
+    }
+    
+    .igonca{
+        color: rgb(235, 231, 4);
+        display: flex;
+        gap: 0;
+    }
+    .header{
+        display: flex;
+        gap: 5px;
+    }
+}

@@ -80,6 +80,11 @@
 }
 .menu_100 img{
     height: 31vh;
+    transition: .5s ease-in;
+}
+.menu_100 img:hover{
+    transform: scale(1.09);
+    transition: .5s ease-in;
 }
 .menu_500{
     display: flex;
@@ -130,8 +135,12 @@
 }
 .menu_200 img{
     height: 31vh;
+    transition: .5s ease-in;
 }
-
+.menu_200 img:hover{
+    transform: scale(1.09);
+    transition: .5s ease-in;
+}
 .menu_200 h1{
     display: flex;
     justify-content: center;
@@ -191,6 +200,10 @@
 }
 .menu_200 img{
     height: 28vh;
+}
+.menu_200 img:hover{
+    transform: scale(1.09);
+    transition: .5s ease-in;
 }
 .menu_200{
     display: flex;
@@ -259,7 +272,10 @@
     background-color: antiquewhite;
     border-radius: 15px;
     padding: 75px;
+ 
+
 }
+
 .uslugi_100 img {
     width: 150px;
    
@@ -370,4 +386,30 @@
     width: 670px;
      height: 1vh;
      border-radius: 5px;
+}
+@media  (min-width:600px ) and (  max-width:1380px){
+    .text_to h1{
+        font-size: 50px;
+    }
+    .text_to img{
+        width: 390px;
+    }
+    .text_tol h1{
+        font-size: 45px;
+    }
+    .text_tol img{
+        width: 500px    ;
+    }
+    .uslugi_100{
+        padding: 25px;
+    }
+    .uslugi_200{
+        padding: 25px;
+    }
+    .uslugi_300{
+        padding: 25px;
+    }
+    .uslugi_400{
+        padding: 25px;
+    }
 }

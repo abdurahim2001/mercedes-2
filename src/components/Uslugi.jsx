@@ -53,64 +53,67 @@ const Uslugi = () => {
           <h1> Mercedes A-class  </h1>
           <li><a href=""> Узнайть  больше</a></li>
         </div>
+
+        <div className={x.menu_200}>
+         <img src={img_5} alt="" />
+         <h1>  Mercedes-Benz AMG.</h1>
+         <li><a href=""> Узнайть  больше</a></li>
+      </div>
+      <div className={x.menu_200}>
+         
+          <img src={img_6} alt="" />
+          <h1>  Мерседес AMG GT</h1>
+          <li><a href=""> Узнайть  больше</a></li>
         </div>
+
+        <div className={x.menu_200}>
+        <img src={img_7} alt="" />
+          <h1> 2010 Mercedes S 63 AMG</h1>
+          <li><a href=""> Узнайть  больше</a></li>
+        </div>
+
+        <div className={x.menu_200}>
+        <img src={img_8} alt="" />
+          <h1> Mercedes A-Class</h1>
+          <li><a href=""> Узнайть  больше</a></li>
+        </div>
+
+        <div className={x.menu_200}>
+         <img src={img_5} alt="" />
+         <h1>  Mercedes-Benz AMG.</h1>
+         <li><a href=""> Узнайть  больше</a></li>
+      </div>
+
+      <div className={x.menu_200}>
+         
+         <img src={img_6} alt="" />
+         <h1>  Мерседес AMG GT</h1>
+         <li><a href=""> Узнайть  больше</a></li>
+       </div>
+
+       <div className={x.menu_200}>
+        <img src={img_7} alt="" />
+          <h1> 2010 Mercedes S 63 AMG</h1>
+          <li><a href=""> Узнайть  больше</a></li>
+        </div>
+
+        <div className={x.menu_200}>
+        <img src={img_8} alt="" />
+          <h1> Mercedes A-Class</h1>
+          <li><a href=""> Узнайть  больше</a></li>
+        </div>
+
+
+
+
+
+        </div>
+
 
         
-        <div className={x.menu_500}>
-          
-        <div className={x.menu_200}>
-         <img src={img_5} alt="" />
-         <h1>  Mercedes-Benz AMG.</h1>
-         <li><a href=""> Узнайть  больше</a></li>
-      </div>
-       
-        <div className={x.menu_200}>
-         
-          <img src={img_6} alt="" />
-          <h1>  Мерседес AMG GT</h1>
-          <li><a href=""> Узнайть  больше</a></li>
-        </div>
+        
 
-        <div className={x.menu_200}>
-        <img src={img_7} alt="" />
-          <h1> 2010 Mercedes S 63 AMG</h1>
-          <li><a href=""> Узнайть  больше</a></li>
-        </div>
-
-        <div className={x.menu_200}>
-        <img src={img_8} alt="" />
-          <h1> Mercedes A-Class</h1>
-          <li><a href=""> Узнайть  больше</a></li>
-        </div>
-        </div>
-
-        <div className={x.menu_500}>
-          
-        <div className={x.menu_200}>
-         <img src={img_5} alt="" />
-         <h1>  Mercedes-Benz AMG.</h1>
-         <li><a href=""> Узнайть  больше</a></li>
-      </div>
-       
-        <div className={x.menu_200}>
-         
-          <img src={img_6} alt="" />
-          <h1>  Мерседес AMG GT</h1>
-          <li><a href=""> Узнайть  больше</a></li>
-        </div>
-
-        <div className={x.menu_200}>
-        <img src={img_7} alt="" />
-          <h1> 2010 Mercedes S 63 AMG</h1>
-          <li><a href=""> Узнайть  больше</a></li>
-        </div>
-
-        <div className={x.menu_200}>
-        <img src={img_8} alt="" />
-          <h1> Mercedes A-Class</h1>
-          <li><a href=""> Узнайть  больше</a></li>
-        </div>
-        </div>
+        
 
 
         </section>
