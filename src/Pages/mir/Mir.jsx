@@ -6,10 +6,9 @@ const Mir = () => {
   return (
     <div>
          <div className={rr.menu}>
-        <div> <NavLink to="">История </NavLink></div>
-       <div>  <NavLink to=""> О Нас</NavLink></div>
-         <div><NavLink to="">Вакансия </NavLink></div>
-        <div> <NavLink to=""> Услуги</NavLink></div>
+       <div>  <NavLink to="/Istor"> О Нас</NavLink></div>
+         <div><NavLink to="/Vac">Вакансия </NavLink></div>
+        <div> <NavLink to="/Uslu"> Услуги</NavLink></div>
          </div>
     </div>
   )

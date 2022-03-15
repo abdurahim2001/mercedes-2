@@ -1,0 +1,134 @@
+
+.menu_00 {
+   background-image: url(../../../foto/foon_11111.jpg);
+   background-attachment: fixed;
+   height: 130vh;
+   background-size: cover;
+
+
+  
+}
+.menu_tex{
+   position: absolute;
+   right: 30rem;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   margin-top: 20rem;
+}
+
+.menu_tex_1{
+    background-color: rgba(7, 7, 7, 0.493);
+   padding: 15px;
+   border-radius: 15px;
+ 
+}
+.menu_tex_1 h1{
+    font-size: 4rem;    
+}
+
+.menu_tex_1 p{
+    font-size: 2rem;
+}
+.menu_tex_2{
+    padding-top: 18rem;
+    
+}
+.menu_tex_2{
+    padding-top: 18rem;
+    
+}
+.menu_tex_2 h2:hover{
+    color: rgba(240, 248, 255, 0);
+    transition: 0.7s;
+}
+.menu_tex svg:hover{
+  margin-top: 3rem;
+  transition: 0.7s;
+  width: 70px;
+}
+.text{
+    position: relative;;
+    background-image: url(../../../foto/foon2222.jpg);
+    background-attachment: fixed;
+    height: 130vh;
+    background-size: cover;
+    
+
+}
+.text{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 228, 196, 0.616);
+ align-items: center;
+}
+.color{
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.616);
+    align-items: center;
+    padding-top: 19.5rem;
+    padding-bottom: 19.5rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+
+.text_1{
+    background-image: url(../../../foto/foon33.jpg);
+    background-attachment: fixed;
+    height: 130vh;
+    background-size: cover;
+}
+.text_1{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 228, 196, 0.616);
+    align-items: center;
+}
+.color_1{
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.616);
+    align-items: center;
+    padding-top: 16.8rem;
+    padding-bottom: 16.8rem;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.color_2 h1{
+    text-align: center;
+}
+.bac{
+    background-image: url('../../../foto/fo-55.jpg');
+    height: 130vh;
+    background-size: cover;
+    
+}
+.bac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+   
+}
+.bac_1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8rem;
+}
+.bac_1{
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.616);
+    align-items: center;
+    padding-top: 18.5rem;
+    padding-bottom: 18.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}

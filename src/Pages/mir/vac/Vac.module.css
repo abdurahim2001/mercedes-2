@@ -1,0 +1,77 @@
+.menu{
+    background-image: url('../../../foto/vac.jpg');
+    background-attachment:fixed;
+    height: 130vh;
+    background-size: cover;
+}
+.menu_1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+.menu_1 h1{
+    font-size: 4rem;
+}
+.menu_img img{
+  width: 300px;
+  border-radius: 15px;
+}
+.menu_img img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+
+}
+.menu_img{
+    display: flex;
+    gap: 2rem;
+}
+.menu_ok{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.menu_tex_ok{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.svg_1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+.svg_1 a{
+    text-decoration: none;
+    outline: 2px solid rgb(27, 26, 26);
+    padding: 10px;
+    position: relative;
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.svg_1:hover a{
+  background-color: rgb(17, 125, 158);
+  color: aliceblue;
+  transition: 0.7s;
+}
+
+.menu_img_1 img{
+    width: 300px;
+    border-radius: 15px;
+  }
+  .menu_img_1 img:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+  }
+  .menu_img_1{
+      display: flex;
+     justify-content: center;
+     gap: 2rem;
+  }

@@ -15,8 +15,8 @@ function Avto() {
      <div>  <NavLink  className={ss.mane_a}  to="/Or_1">	Аренда</NavLink></div>
        </div>
        <div className={ss.mane_1}>
-      <div> <NavLink to=""> <img src={img_2} alt="" /></NavLink></div>
-       <div> <NavLink className={ss.mane_a} to="">Рассрочка</NavLink> </div>
+      <div> <NavLink to="/Or_2"> <img src={img_2} alt="" /></NavLink></div>
+       <div> <NavLink className={ss.mane_a} to="/Or_2">Рассрочка</NavLink> </div>
        </div>
      
         </section>

@@ -1,0 +1,428 @@
+
+.menu{
+    display: flex;
+    justify-content: center;
+    
+}
+.menu{
+    background-image: url('../../../foto/m_o1.jpg');
+    background-attachment: fixed;
+    height: 130vh;
+    background-size: cover;
+   
+}
+.menu_1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.menu_1 h1{
+    font-size: 50px;
+    color: rgb(2, 2, 2);
+}
+.menu_3{
+
+    background-attachment: fixed;
+    height: 130vh;  
+    padding: 5rem;
+  
+    
+    color: rgb(236, 236, 232);
+}
+.menu_4{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.menu_4 h6{
+    font-size: 20px;
+}   
+.tec{
+    display: flex;
+    justify-content:flex-end;
+}
+.menu_tex{
+    display: flex;
+}
+.menu_5{
+    background-color: rgb(240, 234, 216);
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.menu_img{
+    background-image: url('../../../foto/590923.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+      
+
+
+.menu_img_1{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 14.5rem;
+    right: 32rem;
+}
+
+.tooltip{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: antiquewhite;
+    color: black;
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    padding: 2px;
+    bottom: 0.7rem;
+    left: 1rem;
+}
+.menu_img_1:where(:hover,:focus-within)>
+.tooltip{
+    opacity: 1;
+    visibility: visible;
+    transition: 00.7s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu_img_2{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 20rem;
+    right: 54rem;
+}
+
+
+.tooltip2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: antiquewhite;
+    color: black;
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    padding: 2px;
+    bottom: 0.7rem;
+    left: 1rem;
+}
+.menu_img_2:where(:hover,:focus-within)>
+.tooltip2{
+    opacity: 1;
+    visibility: visible;
+    transition: 00.7s;
+}
+
+
+
+
+
+
+
+
+
+
+.menu_img_3{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 11rem;
+    right: 53.5rem;
+}
+
+.tooltip3{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: antiquewhite;
+    color: black;
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    padding: 2px;
+    bottom: 0.7rem;
+    left: 1rem;
+}
+.menu_img_3:where(:hover,:focus-within)>
+.tooltip3{
+    opacity: 1;
+    visibility: visible;
+    transition: 00.7s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu_img_4{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 14.5rem;
+    left: 34.5rem;
+}
+
+.tooltip4{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: antiquewhite;
+    color: black;
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    padding: 2px;
+    bottom: 0.7rem;
+    left: 1rem;
+}
+.menu_img_4:where(:hover,:focus-within)>
+.tooltip4{
+    opacity: 1;
+    visibility: visible;
+    transition: 00.7s;
+}
+
+
+
+
+
+
+
+
+
+
+
+.menu_img_5{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 20.1rem;
+     right: 39.5rem;
+}
+
+
+.tooltip5{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: antiquewhite;
+    color: black;
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    padding: 2px;
+    bottom: 0.7rem;
+    left: 1rem;
+}
+.menu_img_5:where(:hover,:focus-within)>
+.tooltip5{
+    opacity: 1;
+    visibility: visible;
+    transition: 00.7s;
+}
+
+
+
+
+
+
+
+
+
+
+.menu_img_6{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 30rem;
+    right: 31rem;
+    
+}
+
+
+.tooltip6{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: antiquewhite;
+    color: black;
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    padding: 2px;
+    bottom: 0.7rem;
+    left: 1rem;
+}
+.menu_img_6:where(:hover,:focus-within)>
+.tooltip6{
+    opacity: 1;
+    visibility: visible;
+    transition: 00.7s;
+}
+
+
+
+
+
+
+
+
+
+.menu_img_7{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 18rem; 
+    right: 17rem; 
+}
+
+
+.tooltip7{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: antiquewhite;
+    color: black;
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    padding: 2px;
+    bottom: 0.7rem;
+    left: 1rem;
+}
+.menu_img_7:where(:hover,:focus-within)>
+.tooltip7{
+    opacity: 1;
+    visibility: visible;
+    transition: 00.7s;
+}
+
+
+
+
+
+
+
+
+
+
+.menu_img_8{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 33rem; 
+   left: 10rem;
+}
+
+
+
+.tooltip8{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: antiquewhite;
+    color: black;
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    padding: 2px;
+    bottom: 0.7rem;
+    left: 1rem;
+}
+.menu_img_8:where(:hover,:focus-within)>
+.tooltip8{
+    opacity: 1;
+    visibility: visible;
+    transition: 00.7s;
+}
+
+
+
+
+
+
+
+
+
+.menu_img_9{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 28.5rem; 
+    right: 23.5rem;
+}
+
+.tooltip9{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: antiquewhite;
+    color: black;
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    padding: 2px;
+    bottom: 0.7rem;
+    left: 1rem;
+}
+.menu_img_9:where(:hover,:focus-within)>
+.tooltip9{
+    opacity: 1;
+    visibility: visible;
+    transition: 00.7s;
+}

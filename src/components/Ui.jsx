@@ -37,7 +37,7 @@ function Ul() {
                   </Nav>
 
                   <div className={r.igonka}>
-                    <a href="">
+                    <a href="/Re">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="50"

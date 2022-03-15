@@ -12,6 +12,11 @@ import Auto_1 from './Pages/page/Auto/Auto_1';
 import Auto_2 from './Pages/page/Auto/Auto_2';
 import Auto_3 from './Pages/page/Auto/Auto_3';
 import Auto_4 from './Pages/page/Auto/Auto_4';
+import Or_2 from './Pages/avto/OR/Or_2';
+import Istor from './Pages/mir/istor/Istor';
+import Vac from './Pages/mir/vac/Vac';
+import Uslu from './Pages/mir/us/Uslu';
+import Re from './Pages/re/Re';
 
 function App() {
   return (
@@ -28,6 +33,11 @@ function App() {
      <Route path='/Auto_3' element={<Auto_3/>} />
      <Route path='/Auto_4' element={<Auto_4/>} />
      <Route path='/Or_1' element={<Or_1/>} />
+     <Route path='/Or_2' element={<Or_2/>} />
+     <Route path='/Istor' element={<Istor/>} />
+     <Route path='/Vac' element={<Vac/>} />
+     <Route path='/Uslu' element={<Uslu/>} />
+     <Route path='/Re' element={<Re/>} />
    </Routes>
     </BrowserRouter>
    

@@ -15,7 +15,6 @@ const Dalcshe = () => {
      <Route path='/Auto_1' element={ <Auto_1/>} />
      <Route path='/Auto_2' element={<Auto_2/>} />
      <Route path='/Auto_3' element={<Auto_3/> } />
-     <Route path='/' element={} />
    </Routes>
     </BrowserRouter>
     </div>
