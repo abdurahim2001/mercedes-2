@@ -6,7 +6,7 @@ import img_2 from '../../foto/pngwing.com (17).png'
 import img_3 from '../../foto/pngwing.com (14).png'
 import img_5 from '../../foto/pngwing.com (15).png'
 import img_4 from '../../foto/pngwing.com (16).png'
-import{BrowserRouter, Routes, Route} from 'react-router-dom'
+
 
 
 

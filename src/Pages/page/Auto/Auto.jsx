@@ -47,7 +47,6 @@ import img_35 from "../../../foto/sedany/foto7--3.jpg";
 import img_36  from "../../../foto/sedany/foto7---4.jpg";
 
 
-import mg_1 from '../../../foto/Line 3.png'
 import Footer from "../../../components/Footer";
 import Page from "../Page";
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+
 .text_to{
     display: flex;
     align-items: center;
@@ -8,6 +10,7 @@
     white-space: nowrap;
     color: white;
     font-size: 6rem;
+    font-family: 'Vollkorn SC', serif;
 }
 .text_to img {
  
@@ -59,7 +62,7 @@
     padding-bottom: 0.5rem;
     margin-left: 10px;
     margin-right: 10px;
-   
+    font-family: 'Vollkorn SC', serif;
 }
 .menu_100 li{
     list-style: none;
@@ -77,6 +80,7 @@
     font-size: 28px;
     color: rgb(16, 17, 17);
     align-items: center;
+    font-family: 'Vollkorn SC', serif;
 }
 .menu_100 img{
     height: 31vh;
@@ -115,6 +119,7 @@
     padding-bottom: 0.5rem;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: 'Vollkorn SC', serif;
 }
 .menu_200 li{
     list-style: none;
@@ -132,6 +137,7 @@
     font-size: 28px;
     color: rgb(16, 17, 17);
     align-items: center;
+    font-family: 'Vollkorn SC', serif;
 }
 .menu_200 img{
     height: 31vh;
@@ -148,7 +154,9 @@
     font-size: 30px;
     color: rgb(16, 17, 17);
     align-items: center;
+    font-family: 'Vollkorn SC', serif;
 }
+
 
 .menu_200 a{
     color: rgb(22, 23, 24);
@@ -158,7 +166,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-   
+    font-family: 'Vollkorn SC', serif;
 }
 .menu_200 li{
     list-style: none;
@@ -179,7 +187,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-   
+    font-family: 'Vollkorn SC', serif;
 }
 .menu_200 li{
     list-style: none;
@@ -197,6 +205,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    font-family: 'Vollkorn SC', serif;
 }
 .menu_200 img{
     height: 28vh;
@@ -225,7 +234,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    
+    font-family: 'Vollkorn SC', serif;
 }
 .menu_200 li{
    list-style: none;
@@ -243,6 +252,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    font-family: 'Vollkorn SC', serif;
 }
 .menu_200 img{
     height: 28vh;
@@ -277,6 +287,8 @@
 }
 
 .uslugi_100 img {
+    margin-left: 2rem;
+    margin-right: 2rem;
     width: 150px;
    
    
@@ -296,8 +308,8 @@
 }
 .uslugi_200 img {
     width: 150px;
-    display: flex;
-    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
   
     
 }
@@ -313,8 +325,8 @@
 }
 .uslugi_300 img {
     width: 150px;
-    display: flex;
-    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
   
 }
 .uslugi_300 h1{
@@ -328,11 +340,12 @@
     padding: 75px;
 }
 .uslugi_400 img {
-    width: 150px;   
- 
+    width: 230px;   
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
-.uslugi_4z00 h1{
-    padding-top: 7rem;
+.uslugi_400 h1{
+    padding-top:7rem;
     
 }
 
@@ -380,6 +393,7 @@
     white-space: nowrap;
     color: white;
     font-size: 6rem;
+    font-family: 'Vollkorn SC', serif;
 }
 .text_tol img {
  
@@ -387,29 +401,110 @@
      height: 1vh;
      border-radius: 5px;
 }
-@media  (min-width:600px ) and (  max-width:1380px){
-    .text_to h1{
-        font-size: 50px;
-    }
-    .text_to img{
-        width: 390px;
-    }
-    .text_tol h1{
-        font-size: 45px;
-    }
-    .text_tol img{
-        width: 500px    ;
-    }
-    .uslugi_100{
-        padding: 25px;
-    }
-    .uslugi_200{
-        padding: 25px;
-    }
-    .uslugi_300{
-        padding: 25px;
-    }
-    .uslugi_400{
-        padding: 25px;
-    }
+@media  (min-width:360px ) and (  max-width:600px){
+   
+    
+.text_to{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.text_to h1 {
+    white-space: nowrap;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Vollkorn SC', serif;
+}
+.text_to img {
+     width: 94px;
+     height: 0.5vh;
+     border-radius: 5px;
+     margin-bottom: 10px;
+}
+.uslugi00{
+    padding-top: 1rem;
+    display: block;
+   
+}
+
+.uslugi_100{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 50px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.uslugi_100 h1{
+    padding-top: 1rem;
+}
+
+
+.uslugi_200{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 50px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.uslugi_200 h1{
+    padding-top: 1rem;
+}
+
+.uslugi_300{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 50px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.uslugi_300 h1{
+    padding-top: 1rem;
+}
+
+
+
+
+
+.uslugi_400{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 50px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.uslugi_400 h1{
+    padding-top: 1rem;
+}
+
+}
+.text_tol{
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.text_tol h1 {
+    font-size: 30px;
+}
+.text_tol img {
+    width: 108px;
+     height: 0.5vh;
+     margin-bottom: 0.5rem;
+     
 }

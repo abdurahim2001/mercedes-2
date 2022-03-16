@@ -1,17 +1,21 @@
 import React from "react";
 import b from "../components/css/Footer.module.css";
 import img_21 from "../foto/pngwing.com (9).png";
-import img_4 from '../foto/pngwing.com (16).png'
+
+
 
 const Footer = () => {
+ 
   return (
     <div className={b.menu}>
       <div className={b.footer}>
         <div className={b.footer_0}>
-      
-          <div>
+        <div>
             <img src={img_21} alt="" />
           </div>
+        
+
+         
         </div>
 
         <div className={b.footer_2}>

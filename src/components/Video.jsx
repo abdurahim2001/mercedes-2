@@ -11,8 +11,8 @@ const Video = () => {
             <div className={e.video_button}>
                    <div><h1>"Mercedes-Benz"</h1></div>
                   <div className={e.nav}>
-                  <NavLink to="">Узнайте больше</NavLink>
-                   <NavLink to="">Узнайте больше</NavLink>
+                  <NavLink to="">Узнать больше</NavLink>
+                   <NavLink to="">Узнать больше</NavLink>
                   </div>
             </div>
      

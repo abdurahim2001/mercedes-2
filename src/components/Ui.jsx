@@ -3,7 +3,7 @@ import "bootstrap";
 import r from "../components/css/Ui.module.css";
 import img_1 from "../foto/logo.png";
 import { NavLink } from "react-router-dom";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav, } from "react-bootstrap";
 import"../../src/Pages/page/Page" 
 
  
@@ -15,6 +15,8 @@ function Ul() {
       <div className={r.burger}>
         <div className={r.burger_menu}>
           <Navbar className={r.menu_burger} variant="dark" expand="lg">
+           
+           
             <div>
               <li className={r.lia}>
                 <NavLink to="/Header">
@@ -22,10 +24,14 @@ function Ul() {
                 </NavLink>
               </li>
             </div>
+
+
+            <div>
             <Container className={r.menu_ooo} fluid>
               <Navbar.Toggle />
               <Navbar.Collapse>
                 <div className={r.conponens}>
+                  <div className={r.con_menu}>
                   <Nav className={r.van}>
                   <NavLink to="/Page">Автомобили</NavLink>
                   </Nav>
@@ -35,6 +41,8 @@ function Ul() {
                   <Nav className={r.van}>
                   <NavLink to="/Mir"> Мир Mercedes-Benz</NavLink>   
                   </Nav>
+                  </div>
+                 
 
                   <div className={r.igonka}>
                     <a href="/Re">
@@ -53,6 +61,7 @@ function Ul() {
                 </div>
               </Navbar.Collapse>
             </Container>
+            </div>
           </Navbar>
         </div>
       </div>

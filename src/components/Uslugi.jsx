@@ -164,9 +164,15 @@ const Uslugi = () => {
           <p>Другое</p>
       </div>
       
-      
-      
      </div>
+
+
+
+
+
+
+
+
 
      <div className={x.uslugi_200}>
      <img src={img_u_2} alt="" />

@@ -17,6 +17,7 @@ import Istor from './Pages/mir/istor/Istor';
 import Vac from './Pages/mir/vac/Vac';
 import Uslu from './Pages/mir/us/Uslu';
 import Re from './Pages/re/Re';
+import Mapese from './Pages/map/Mapese';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
      <Route path='/Vac' element={<Vac/>} />
      <Route path='/Uslu' element={<Uslu/>} />
      <Route path='/Re' element={<Re/>} />
+    
    </Routes>
     </BrowserRouter>
    

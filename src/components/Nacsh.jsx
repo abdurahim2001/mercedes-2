@@ -28,11 +28,13 @@ const Nacsh = () => {
       <div className={l.carusel}>
       <Carousel fade>
   <Carousel.Item>
-    <img
+   <div className={l.car_img}>
+   <img
       className="d-block w-100"
       src={img_3}
       alt="First slide"
     />
+   </div>
     <Carousel.Caption>
        <h3> <b>Mercedes Benz 2020 Vision</b></h3>
       <ul>
@@ -44,11 +46,13 @@ const Nacsh = () => {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <img
+    <div className={l.car_img}>
+      <img
       className="d-block w-100"
       src={img_7}
       alt="First slide"
-    />
+      />
+    </div>
     <Carousel.Caption>
       <h3><b>Mercedes Benz s-class </b></h3>
       <ul  className={l.carusel_li}>
@@ -59,11 +63,13 @@ const Nacsh = () => {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <img
+   <div className={l.car_img}>
+   <img
       className="d-block w-100"
       src={img_8}
       alt="First slide"
     />
+   </div>
     <Carousel.Caption>
       <h3>Mercedes Benz c class Cabrio 2016</h3>
       <ul  className={l.carusel_li}>
@@ -74,11 +80,13 @@ const Nacsh = () => {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <img
+   <div className={l.car_img}>
+   <img
       className="d-block w-100"
       src={img_5}
       alt="Second slide"
     />
+   </div>
 
     <Carousel.Caption>
       <h3>Mercedes Benz GLE  2020</h3>
@@ -90,12 +98,14 @@ const Nacsh = () => {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
+    <div className={l.car_img}>
     <img
       className="d-block w-100"
       src={img_6}
       alt="Third slide"
     />
 
+    </div>
     <Carousel.Caption>
      
       <h3>Mercedes Benz e-class Coupe c 238</h3>

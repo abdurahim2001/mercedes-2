@@ -22,7 +22,9 @@ const Havyi = () => {
           <section className={o.header}>
           <div className={o.tesla}> 
             <div className={o.tesla_img}>
+            
             <img src={img_2} alt="" />
+           
                     <div>
                          <h1>И́лон Рив Маск</h1>
                          <h6>Владелец Tesla Motors</h6>
@@ -105,7 +107,7 @@ const Havyi = () => {
         
             </div>
             
-           <div className='menuimg'> 
+           <div className={o.menuimg}> 
              <img src={img_u_1} alt="" />
                
              </div>

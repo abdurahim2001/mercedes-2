@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
 body{
 	background-color: black;
 }
@@ -17,10 +17,11 @@ body{
 .menu_ooo{
 	display: flex;
 	justify-content: center;
-	
-	
-
-
+}
+.con_menu{
+	display: flex;
+	gap: 5rem;
+	align-items: center;
 }
 
 .conponens{
@@ -34,20 +35,21 @@ body{
 	text-decoration: none ;
 	color: azure;
 	transition: .2s ease-in;
+	font-family: 'Vollkorn SC', serif;
 	
 }
 .van:hover  a{
 	  color: rgb(21, 111, 117);
 	  font-size: 25px;
 	  transform: scale(1.1);
-	transition: .2s ease-in;
+	  transition: .2s ease-in;
 }
 
 
 
 .nav a{
 	color: rgb(0, 0, 0);
-
+    font-family: 'Vollkorn SC', serif;
 }
 
 .burger_menu{
@@ -58,7 +60,7 @@ body{
 .menu_burger{
 	display: flex;
 	justify-content:space-between;
-	gap: 25rem;
+	gap: 20rem;
 	padding: 15px;
 	
 }
@@ -70,6 +72,7 @@ body{
     text-decoration: none;
     color: rgb(236, 236, 233);
     font-size: 35px;
+	font-family: 'Vollkorn SC', serif;
 }
 .nav img:hover{
     width: 195px;
@@ -82,6 +85,72 @@ body{
 .menu_burger img:hover{
     transform: rotate(360deg);
 	transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+@media  (min-width:380px ) and (  max-width:600px){
+	
+	.igonka svg{
+		color: rgb(214, 217, 219);
+		align-items: center;
+	   
+	}
+	
+	.menu_ooo{
+		display: flex;
+	
+	}
+	
+	.conponens{
+		display:flex;
+		gap: 2rem;
+	    padding: 0;
+		font-size: 1rem; 
+	}
+	.con_menu{
+		display: block;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	.menu_burger{
+		display: flex;
+		justify-content: center;
+		gap: 2rem;
+	}
+	
+	.nav a{
+		text-decoration: none;
+		color: rgb(236, 236, 233);
+		font-size: 35px;
+	}
+	.nav img:hover{
+		width: 95px;
+	
+	}
+	
+	.nav img{
+		width: 180px;
+	}
+	.menu_burger img:hover{
+		transform: rotate(360deg);
+		transition: 0.4s;
+	}
 }
 
 
