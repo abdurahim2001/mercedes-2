@@ -14,7 +14,7 @@
 }
 .text_to img {
  
-    width: 500px;
+    width: 650px;
      height: 1vh;
      border-radius: 5px;
 }
@@ -401,7 +401,7 @@
      height: 1vh;
      border-radius: 5px;
 }
-@media  (min-width:360px ) and (  max-width:600px){
+@media  (min-width:450px ) and (  max-width:600px){
    
     
 .text_to{
@@ -432,8 +432,8 @@
     background-color: antiquewhite;
     border-radius: 15px;
     padding: 50px;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
@@ -449,8 +449,8 @@
     padding: 50px;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 
@@ -464,8 +464,8 @@
     padding: 50px;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 
@@ -483,8 +483,8 @@
     padding: 50px;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 
@@ -501,9 +501,10 @@
 }
 .text_tol h1 {
     font-size: 30px;
+    
 }
 .text_tol img {
-    width: 108px;
+     width: 1px;
      height: 0.5vh;
      margin-bottom: 0.5rem;
      

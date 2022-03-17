@@ -44,7 +44,7 @@ const Uslugi = () => {
 
         <div className={x.menu_100}>   
         <img src={img_3} alt="" />
-          <h1> Mercedes GL Ⅰ</h1>
+          <h1> Mercedes </h1>
           <li><a href=""> Узнайть  больше</a></li>
         </div>
 
@@ -118,7 +118,7 @@ const Uslugi = () => {
 
         </section>
  
-        <div className={x.text_tol}>
+        <div className={x.text_to}>
  <img src={img_00} alt="" />
    <h1>Hаши услуги</h1>
    <img src={img_00} alt="" />

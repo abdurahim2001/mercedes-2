@@ -62,18 +62,18 @@
 .igonca{
     color: rgb(235, 231, 4);
     display: flex;
-    gap: 1REM;
+    gap: 1rem;
 }
 .header{
     display: flex;
     gap: 2rem;
 }
 
-@media  (min-width:360px ) and (  max-width:600px){
+@media   (  max-width:480px){
    
 
-.menuimg{
-    width: 0;
+.menuimg img{
+    position: absolute;
 }
 .header{
     display: block;
@@ -87,5 +87,10 @@
     margin: 2rem;
 }
   
+.menu_tex{
+    display: block;
+
+}
+
 
 }

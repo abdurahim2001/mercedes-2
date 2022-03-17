@@ -107,7 +107,7 @@ const Havyi = () => {
         
             </div>
             
-           <div className={o.menuimg}> 
+           <div className={o.menu0_img}> 
              <img src={img_u_1} alt="" />
                
              </div>
