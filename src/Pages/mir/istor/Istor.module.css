@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
 
 .menu{
     display: flex;
@@ -19,6 +20,7 @@
 }
 .menu_1 h1{
     font-size: 50px;
+    font-family: 'Vollkorn SC', serif;
     color: rgb(2, 2, 2);
 }
 .menu_3{
@@ -37,6 +39,7 @@
 }
 .menu_4 h6{
     font-size: 20px;
+    font-family: 'Vollkorn SC', serif;
 }   
 .tec{
     display: flex;
@@ -425,4 +428,204 @@
     opacity: 1;
     visibility: visible;
     transition: 00.7s;
+}
+@media  (min-width:350px ) and ( max-width:500px){
+
+    .menu{
+        height: 100vh;
+    }
+.menu_1 h1{
+   font-size: 27px;
+   color: aliceblue;
+}
+.menu_1 p{
+    font-size: 20px;
+    color: aliceblue;
+}
+.me_h6 h6{
+    font-size: 15px;
+    
+}
+
+.menu_4 {
+
+    margin: 0;
+    padding: 0;
+}
+.menu_tex h6{
+    font-size: 0;
+}
+.tec img{
+    width: 0;
+}
+.fo h6{
+    font-size: 0;
+}
+.menu_img{
+   height: 20vh;
+}
+.menu_img_1{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 2.3rem;
+    right: 7.5rem;
+}
+.menu_5{
+    background: none;
+    margin: 0;
+    padding: 0;
+    height: 25vh;
+}
+.menu_img_1 svg{
+   width:15px; 
+    
+}
+.menu_img_2 svg{
+    width:15px; 
+     
+ }
+ .menu_img_3 svg{
+    width:15px; 
+     
+ }
+ .menu_img_4 svg{
+    width:15px; 
+     
+ }
+ .menu_img_5 svg{
+    width:15px; 
+     
+ }
+ .menu_img_6 svg{
+    width:15px; 
+     
+ }
+ .menu_img_7 svg{
+    width:15px; 
+     
+ }
+ .menu_img_8 svg{
+    width:15px; 
+     
+ }
+ .menu_img_9 svg{
+    width:15px; 
+     
+ }
+.menu_img_2{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 3.5rem;
+    right: 11.5rem;
+}
+
+.menu_img_3{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 1.4rem;
+    right: 11.8rem;
+}
+
+.menu_img_4{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 2.1rem;
+    left: 7rem;
+}
+
+.menu_img_5{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 3.5rem;
+     right: 8.5rem;
+}
+.menu_img_6{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 5.9rem;
+    right: 7rem;
+    
+}
+
+
+.menu_img_7{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 3rem; 
+    right: 3.8rem; 
+}
+
+
+.menu_img_8{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 6rem; 
+    left: 2rem;
+}
+
+
+.menu_img_9{
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 5.2rem; 
+    right: 5rem;
+}
+
+.tooltip1{
+    background: none;
+    padding: 0;
+    gap: 0;
+    bottom: 0;
+    left: 0;
+}
+.tooltip2{
+    background: none;
+}
+.tooltip3{
+    background: none;
+}
+.tooltip4{
+    background: none;
+}
+.tooltip5{
+    background: none;
+}
+.tooltip6{
+    background: none;
+}
+.tooltip7{
+    background: none;
+}
+.tooltip8{
+    background: none;
+}
+.tooltip9{
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

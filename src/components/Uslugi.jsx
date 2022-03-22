@@ -22,7 +22,7 @@ import x from '../components//css//Uslugi.module.css'
 const Uslugi = () => {
   return (
     <div className={x.logo}>
-        <div className={x.text_to}>
+        <div className={x.text_to_1}>
         <img src={img_00} alt="" />
             <h1>Наши рекомендации</h1>
             <img src={img_00} alt="" />
@@ -92,7 +92,7 @@ const Uslugi = () => {
        </div>
 
        <div className={x.menu_200}>
-        <img src={img_7} alt="" />
+        <img  src={img_7} alt="" />
           <h1> 2010 Mercedes S 63 AMG</h1>
           <li><a href=""> Узнайть  больше</a></li>
         </div>
@@ -246,7 +246,7 @@ const Uslugi = () => {
   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
 </svg>
        <p>Другое</p>
-       </div>
+       </div> 
       
        
      

@@ -22,8 +22,11 @@ const Havyi = () => {
           <section className={o.header}>
           <div className={o.tesla}> 
             <div className={o.tesla_img}>
+
+            <a href="https://instagram.com/elonofficiall?utm_medium=copy_link">
+              <img src={img_2} alt="" />
+              </a>
             
-            <img src={img_2} alt="" />
            
                     <div>
                          <h1>И́лон Рив Маск</h1>
@@ -63,7 +66,10 @@ const Havyi = () => {
 
           <div className={o.tesla}> 
             <div className={o.tesla_img}>
-            <img src={img_3} alt="" />
+           <a href="
+https://instagram.com/stories/khabib_nurmagomedov/2796526431972656867?utm_source=ig_story_item_share&utm_medium=copy_link">
+           <img src={img_3} alt="" />
+           </a>
                     <div>
                          <h1>Хабиба Нурмагомедова</h1>
                          <h6>Чемпион UFC</h6>

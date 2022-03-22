@@ -5,8 +5,7 @@
     background-size: cover;
     display: flex;
     justify-content: center;
-    flex-direction: column
-    ;
+    flex-direction: column;
 
 }
 .menu_text{
@@ -39,6 +38,7 @@
 }
 .menu_tex_2 svg{
     color: aliceblue;
+    width: 100px;
 }
 .menu_tex_2 svg:hover{
     transform: translate(0,35px);
@@ -615,7 +615,205 @@ text-align: center;
     gap: 1rem;
 }
 
+@media  (min-width:350px ) and ( max-width:500px){
 
+.menu{
+    background-image: url('../../../foto/sedany/wih480.jpg');
+    height: 80vh;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+
+}
+.menu_text h1{
+    font-size: 30px;
+    background: none;
+    margin-right: 1rem;
+}
+.menu_tex_2 h2{
+    font-size: 20px;
+}
+.svg_1 svg{
+    width: 70px;
+    height: 15vh;
+}
+.menu_tex_2{
+    padding-top: 3rem;
+}
+.div_3{
+    display: flex;
+   flex-direction: column;
+   gap: 2rem;
+
+}
+.menu_0{
+    height: 100vh;
+    width: 450px;
+    background-size: auto;
+}
+
+.d_1 h1{
+    font-size: 2rem;
+    padding: 0;
+    margin-right: 3rem;
+} 
+.d_2 p{
+    font-size: 10px;
+     padding: 5px;
+     
+}
+
+.d_2 svg{
+    width: 10px;
+}
+.menu_4_1{
+    padding: 15px;
+    
+}
+.menu_4_1 h6{
+    font-size: 12px;
+}
+.menu_1{
+    height: 120vh;
+
+}
+.aa{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding: 0;
+    gap: 0;
+    
+}
+.a_1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.a_1 h1{
+  font-size: 15px;
+}
+.a_1 h6{
+    font-size: 15px;
+}
+.a_1 h4{
+    font-size: 0;
+}
+.h6 svg{
+    width: 40px;
+  
+}
+.h6{
+    gap: 0;
+}
+.menu_4_2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-top: 15px;
+    margin: 0;
+    gap: 2rem;
+}
+.im_1 img{
+    width: 308px;
+}
+
+
+.im_2 img{
+    width: 308px;
+}
+
+.im_3 img{
+    width: 308px;
+}
+
+
+
+.im_4 img{
+    width: 308px;
+}
+
+
+.menu_2{
+    padding: 0;
+    margin: 0;
+    height: 150vh;
+}
+.ot h1{
+font-size: 20px;
+padding: 0;
+margin: 0;
+}
+.ot p{
+    font-size: 10px;
+}
+.y_1 {
+ padding: 40px;
+ margin-right: 1.3rem;
+
+}
+
+.y_2 {
+    padding: 10px;
+    margin-left: 1rem;
+    margin-right: 2.5rem;
+   
+   }
+
+   .y_3 {
+    padding: 10px;
+    margin-left: 1rem;
+    margin-right: 2.5rem;
+   }
+
+   .y_4 h6{
+       font-size: 0;
+   }
+   .y_4_img img{
+       width: 0;
+   }
+   .y_4_img h4,p{
+       font-size: 0;
+   }
+   .y_4 {
+    background: none;
+   
+   }
+
+   .y_5 h6{
+    font-size: 0;
+}
+.y_5_img img{
+    width: 0;
+}
+.y_5_img h4,p{
+    font-size: 0;
+}
+.y_5 {
+ background: none;
+
+}
+
+.y_6 h6{
+    font-size: 0;
+}
+.y_6_img img{
+    width: 0;
+}
+.y_6_img h4,p{
+    font-size: 0;
+}
+.y_6 {
+ background: none;
+
+}
+
+
+
+
+
+
+
+
+}
 
 
 

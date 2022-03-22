@@ -40,29 +40,17 @@
     gap: 3rem;
 
 }
-.text_1 button{
-    padding: 15px;
-    border-radius: 25px;
-    border: none;
-  
-    color: azure;
-}
-.text_1  button:hover {
- 
-    color: aliceblue;
-    transition: 0.7s;
-    padding: 16px;
-}
+
 .text_1 img{
     width: 100px;
 }
 .img_text img{
     width: 800px;
     height: 70vh;
-     margin-left:22rem;
-     margin-right: 22rem;
-     margin-top: 5rem;
-     margin-bottom: 5rem;
+    margin-left:22rem;
+    margin-right: 22rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 .oo_text  {
 display: flex;
@@ -128,6 +116,7 @@ padding: 25px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 ._3_img{
     display: flex;
@@ -453,7 +442,7 @@ padding: 25px;
 .menu_bu button:hover{
     transform: scale(1.05);
     transition: .1s ease-in;
-    background-color: rgb(16, 199, 123);
+
     color: aliceblue;
     transition: 0.7s;
 }
@@ -467,4 +456,270 @@ padding: 25px;
 }
 .tex_te h1{
     font-size: 50px;
+}
+
+@media  (min-width:350px ) and ( max-width:500px){
+    .section{
+        margin: 0;
+    }
+    .menu{
+        height: 25vh;
+    }
+    .text{
+        padding: 65px;
+    }
+    .text h1{
+        font-size: 0.8rem;
+        padding: 5px;
+        text-align: center;
+    }
+    .text p{
+        font-size: 10px;
+        padding: 5px;
+    }
+
+.menu_1_1 h1{
+    text-align: center;
+}
+.menu_img_1 img{
+    width: 400px;
+    height: 30vh;
+}
+.class{
+    display: block;
+    text-align: center;
+    margin-left: 2.5rem;
+    margin-right: 3.5rem;
+}
+.class img{
+    width: 300px;
+}
+.class h5{
+    font-size: 15px;
+}
+.class_1{
+    display: block;
+}
+
+
+
+
+.class_2{
+    display: block;
+    text-align: center;
+    margin-left: 2.5rem;
+    margin-right: 3.5rem;
+}
+.class_2 img{
+    width: 300px;
+}
+.class_2 h5{
+    font-size: 15px;
+}
+.class_5{
+    display: block;
+}
+.dd{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+._3_img{
+    display: block;
+    text-align: center;
+   margin-left: 2rem;
+   margin-right: 2rem;
+}
+._3_img img{
+    width: 310px;
+}
+.img_text img{
+    width: 413px;
+    height: 35vh;
+    margin:0;
+     
+}
+.text_1{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+.text_1 img{
+    width: 50px;
+}
+.li_1 h6{
+    margin: 0;
+    padding: 0  ;
+}
+.li_2 h6{
+    margin: 0;
+    padding: 0;
+}
+
+.li_3 h6{
+    margin: 0;
+    padding: 0  ;
+}
+.li_4 h6{
+    margin: 0;
+    padding: 0;
+}
+.div_0 img{
+    width: 412px;
+    height: 30vh;
+}
+.div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: relative;
+    z-index: 50;
+    gap: 0.3rem;
+    left: 0.2rem;
+    padding: 3px;
+    margin-top: 1rem;
+   
+}
+.div_1{
+    padding: 1rem;
+   
+}
+.div_2{
+    padding: 1rem;
+   
+}
+.div_3{
+    padding: 1rem;
+   
+}
+.div_4{
+    padding: 1rem;
+   
+}
+.div_5{
+    padding: 1rem;
+   
+}
+
+.hollo_text{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hollo{
+    display: block;
+    justify-content: center;
+    padding-top: 0rem;
+    gap: 1rem;
+}
+.hollo_1 img{
+  width: 413px;
+  
+}
+.foon_img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem; 
+    background-color: rgba(0, 0, 0, 0.459);
+    position: relative;
+    z-index: 50;
+    left: 0rem;
+    padding: 5px;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    border-radius: 5px;
+    
+}
+.foon_img img{
+    width: 50px;
+}
+
+.foon_1{
+    padding: 0px;
+    
+   }
+
+   .menu_img_1{
+    display:flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+.jjjjj{
+    display: block;
+}
+
+.menu_text_1 img{
+    width: 180px;
+    height: 15vh;
+}
+.menu_text_1 h6{
+    font-size: 10px;
+}
+
+.menu_text_1 hr{
+    width: 400px;
+    height: 0.2vh;
+}
+.menu_text_10{
+display: flex;
+justify-content: space-between;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: 2rem;
+
+
+
+}
+.menu_text_1{
+display: block;
+}
+
+.img_4{
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+.jjjjj h1{
+font-size: 25px;
+text-align: center;
+}
+
+.menu_img_9{
+display:flex;
+flex-direction: column;
+margin-bottom: 0.6rem;
+}
+.tex_te h1{
+    font-size: 28px;
+}
+
+
+.menu_bu button{
+  padding: 2px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.menu_bu:hover button{
+    
+   transform: scale(1.1);
+   transition: 0.7s;
+}
+.type p{
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
 }

@@ -61,7 +61,7 @@ li {
      transition: 0.7s;
  }
 
- @media  (min-width:360px ) and (  max-width:600px) {
+ @media  (min-width:350px ) and (  max-width:500px) {
   
   .text{
     display: flex;
@@ -75,7 +75,7 @@ li {
  
   }
   .text img{
-    width: 110px;
+    width: 115px;
     height: .5vh;
     margin-bottom: 9px;
     
@@ -108,4 +108,5 @@ li {
 .car_img img{
     height: 40vh;
 }
+
 }

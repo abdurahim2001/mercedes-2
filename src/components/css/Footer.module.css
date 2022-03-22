@@ -1,6 +1,6 @@
 .menu{
  background-image: url('../../foto/footer.jpg');
- height: 100vh;
+ height: 80vh;
  background-size: cover;
 }
 
@@ -10,6 +10,8 @@
    
 }
 .footer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     display: flex;
     justify-content: space-evenly;
     color: rgb(255, 251, 251);
@@ -27,7 +29,7 @@
     gap: 1rem;
 }
 .footer_3 svg{
-    color: rgb(32, 204, 61);
+    color: rgb(100, 6, 6);
 }
 .react_1 a{
   color: rgb(255, 251, 251);
@@ -47,21 +49,90 @@
 .set a{
     text-decoration: none;
 }
-
+.set  h1{
+    text-align: center;
+}
 .set svg{
-    color: rgb(76, 189, 11);
+    color: rgb(11, 189, 150);
     margin-left: 8rem;
     margin-right: 8rem;
-   animation: pluse 1000ms infinite;
+    animation: pluse 1000ms infinite;
 }
 @keyframes pluse{
     50%{
         box-shadow:rgb(17, 17, 17) 0 0 0 1;
     }
     75%{
-        box-shadow: rgba(209, 223, 209, 0.116) 0 0 0 25px;
-        border-radius: 50%;
+        box-shadow: rgba(122, 214, 214, 0.116) 0 0 0 25px;
+        border-radius: 40%;
     }
+}
+
+
+@media  (min-width:350px ) and (  max-width:500px){
+
+    .menu{
+        width: 100%;
+        height: 30vh;
+    }
+    .footer_0 img{
+       width: 0px;
+       
+      
+   }
+
+.footer{
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+    
+ .footer_2 h1{
+     font-size: 13px;
+     text-align: center;
+ }
+ .footer_3 h6{
+     font-size: 10px;
+ }
+.react_1 a{
+    font-size: 10px;
+}
+.react_1 h1{
+    font-size: 13px;
+    text-align: center;
+}
+.set h1{
+    font-size: 10px;
+}
+.set svg{
+    width: 20px;
+    height: 5vh;
+    margin: 0;
+}
+.set{
+    display: block;
+    text-align: center;
+}
+.footer_2{
+    display: block;
+
+}
+.footer_3 svg{
+    width: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
     

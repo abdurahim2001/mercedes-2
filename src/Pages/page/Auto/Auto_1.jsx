@@ -116,7 +116,7 @@ const Auto_1 = () => {
 
 
               <div className={dd.menu_img_1}>
-                <div className={dd.jjjjj0}>
+                <div className={dd.jjjjj}>
                   <h1> Mercedes-AMG A 35 4MATIC</h1>
                 </div>
 
@@ -183,7 +183,7 @@ const Auto_1 = () => {
              
 
               <div className={dd.menu_img_1}>
-                <div className={dd.jjjjj1}>
+                <div className={dd.jjjjj}>
                   <h1>Mercedes A 220 4MATIC DCT</h1>
                 </div>
 
@@ -248,7 +248,7 @@ const Auto_1 = () => {
 
 
               <div className={dd.menu_img_1}>
-                <div className={dd.jjjjj5}>
+                <div className={dd.jjjjj}>
                   <h1> Mercedes-Benz Mercedes A-class</h1>
                 </div>
 
@@ -311,7 +311,7 @@ const Auto_1 = () => {
 
 
               <div className={dd.menu_img_1}>
-                <div className={dd.jjjjj6}>
+                <div className={dd.jjjjj}>
                   <h1>Mercedes A 180 d DCT </h1>
                 </div>
 
@@ -440,57 +440,57 @@ const Auto_1 = () => {
 
 
 
-              <div className={dd.menu_img_abdu1}>
-                <div className={dd.jjjjj10}>
+              <div className={dd.menu_img_9}>
+                <div className={dd.jjjjj}>
                   <h1>Mercedes A 250 DCT</h1>
                 </div>
 
-                <div className={dd.menu_text_abdu}>
-                  <div  className={dd.img_abdu}>
-                 <div className={dd.img_abdu1}> 
+                <div className={dd.menu_text_1}>
+                  <div  className={dd.img_4}>
+                 <div className={dd.img_50}> 
                         <div> <img src={img_33} alt="" /></div>
                         <div><img src={img_34} alt="" /></div>
                   </div>
 
-                  <div className={dd.img_abdu1}>
+                  <div className={dd.img_50}>
                     <img src={img_35} alt="" />
                     <img src={img_36} alt="" />
                   </div>
                   </div>
                   <div>
-                    <div className={dd.menu_text_abdu3}>
+                    <div className={dd.menu_text_10}>
                       <h6>Цена</h6>
                       <h6>4 660 000 сом</h6>
                     </div>
                     <hr />
 
                     <div>
-                      <div className={dd.menu_text_abdu3}>
+                      <div className={dd.menu_text_10}>
                         <h6>Год</h6>
                         <h6>2021</h6>
                       </div>
                       <hr />
-                      <div className={dd.menu_text_abdu3}>
+                      <div className={dd.menu_text_10}>
                         <h6>Кузов</h6>
                         <h6> 	Хэтчбек</h6>
                       </div>
                       <hr />
-                      <div className={dd.menu_text_abdu3}>
+                      <div className={dd.menu_text_10}>
                         <h6>Салон</h6>
                         <h6> Artico</h6>
                       </div>
                       <hr />
-                      <div className={dd.menu_text_abdu3}>
+                      <div className={dd.menu_text_10}>
                         <h6>Страна сборки</h6>
                         <h6> Германия</h6>
                       </div>
                       <hr />
-                      <div className={dd.menu_text_abdu3}>
+                      <div className={dd.menu_text_10}>
                         <h6>Гарантия</h6>
                         <h6>2 года </h6>
                       </div>
                       <hr />
-                      <div className={dd.menu_text_abdu3}>
+                      <div className={dd.menu_text_10}>
                         <h6>Мощность</h6>
                         <h6> 250 л.с.</h6>
                       </div>

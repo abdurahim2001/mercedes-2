@@ -36,7 +36,7 @@ const coordinates = [
               <div className={aa.text}>
 
               <div className={aa.vide}> 
-               <video autoPlay preload='auto'muted   >
+               <video autoPlay preload='auto'muted  loop  >
                 <source  src={Video_1}/>
               </video>
               </div>
@@ -64,7 +64,7 @@ const coordinates = [
                                           <div className={aa.i_img1}><img onClick={()=> setMenu(
                                              <div>
                                              <div  className={aa.input_3}>
-                                             <label>город</label>
+                                             <label>Город</label>
                                              <select >
                                              <option ></option>
                                              <option >Алма-Ата</option>
@@ -90,7 +90,7 @@ const coordinates = [
                                           <div className={aa.i_img2}>
                                            <div><img onClick={()=> setMenu(
                                               <div  className={aa.input_3}>
-                                              <label>город</label>
+                                              <label>Город</label>
                                               <select >
                                               <option ></option>
                                               <option >	Берлин</option>
@@ -114,7 +114,7 @@ const coordinates = [
 
                                           <div className={aa.i_img3}><img onClick={()=> setMenu(
                                              <div  className={aa.input_3}>
-                                             <label>город</label>
+                                             <label>Город</label>
                                              <select >
                                              <option ></option>
                                              <option >Москва</option>
@@ -129,7 +129,7 @@ const coordinates = [
                                           </div>
                                           <div className={aa.i_img4}><img onClick={()=> setMenu(
                                              <div  className={aa.input_3}>
-                                             <label>город</label>
+                                             <label>Город</label>
                                              <select >
                                              <option ></option>
                                              <option >	Бишкек</option>
@@ -208,7 +208,7 @@ const coordinates = [
             </div>
             <div>
               <h6>
-                {" "}
+               
                 <b>Г.Бишкек,ул.Фрунзе 553</b>
               </h6>
             </div>

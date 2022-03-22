@@ -13,7 +13,6 @@ import img_4 from '../../foto/pngwing.com (16).png'
 const Page = () => {
   return (
     <div className={aa.nav}>
-    
      <NavLink to="/Auto"><img src={img_1} alt="" /></NavLink>
      <NavLink to="/Auto_1"><img src={img_2} alt="" /></NavLink>
      <NavLink to="/Auto_2"><img src={img_3} alt="" /></NavLink>

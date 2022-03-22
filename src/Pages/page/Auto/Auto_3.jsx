@@ -45,12 +45,17 @@ import img_o_5 from '../../../foto/fo2-1.jpg'
 import img_o_6 from '../../../foto/fo2-2.jpg'
 import img_o_8 from '../../../foto/fo2-3.jpg'
 import Footer from "../../../components/Footer";
-
+import {Modal, Button} from 'react-bootstrap'
+import logo from '../../../foto/logo.png'
 
 const Auto_3 = () => {
   const [menu, setMenu] = useState(img_22);
   const [abdu, setAbdu] = useState(img_8);
   const [hollo,setHollo] =useState (img_git1)
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
     <div>
@@ -164,17 +169,12 @@ const Auto_3 = () => {
                 {/* 3 */}
                 <div className={dd.dd}>
                   <h1>
-                    Основные характеристики оснащения в серийной <br />{" "}
-                    комплектации.
+                    Основные характеристики
                   </h1>
                   <p>
-                    Фургон Sprinter в серийной комплектации имеет обширное и{" "}
-                    <br />
-                    качественное оснащение. На традиционно для Mercedes-Benz
-                    <br />
-                    высоком уровне качества изготовлены элементы оснащения для
-                    <br />
-                    обеспечения безопасности и комфорта.
+                    Фургон Sprinter в серийной комплектации имеет обширное и качественное оснащение. <br />
+                     На традиционно для Mercedes-Benzвысоком уровне качества изготовлены элементы <br />
+                      оснащения для обеспечения безопасности и комфорта.
                   </p>
                 </div>
                 <div className={dd._3_img}>
@@ -227,33 +227,31 @@ const Auto_3 = () => {
                 <div onClick={() => setMenu(img_23)} className={dd.div_5}></div>
               </div>
 
-
-             
               </div>
               <div className={dd.hollo_text}>
                  <h1>Обивка для сидений.</h1>
              </div>
 
               <div className={dd.hollo}>
-              <div className={dd.foon_img}>
-                  <div onClick={ ()=> setHollo (img_git1)} className={dd.foon_1}><img src={img_git6} alt="" /></div>
-                  <div onClick={ ()=> setHollo (img_git3)} className={dd.foon_1}><img src={img_git2} alt="" /></div>
-                  <div onClick={ ()=> setHollo (img_git5)} className={dd.foon_1}><img src={img_git4} alt="" /></div>
-                </div>
+              
              
                 <div className={dd.hollo_1} >
                   <img src={hollo} alt="" />
                 </div>
                
-
+                <div className={dd.foon_img}>
+                  <div onClick={ ()=> setHollo (img_git1)} className={dd.foon_1}><img src={img_git6} alt="" /></div>
+                  <div onClick={ ()=> setHollo (img_git3)} className={dd.foon_1}><img src={img_git2} alt="" /></div>
+                  <div onClick={ ()=> setHollo (img_git5)} className={dd.foon_1}><img src={img_git4} alt="" /></div>
+                </div>
                
               </div>
           </div>
           
          <div className={dd.menu_img_1}>
-                <div className={dd.jjjjj0}>
+                <div className={dd.jjjjj}>
                
-                  <h1> Mercedes-Benz Sprinter VS30 Van 5,0t 4325 EL 516CDI</h1>
+                  <h1> Mercedes-Benz Sprinter VS30 Van </h1>
              
                 </div>
 
@@ -313,7 +311,7 @@ const Auto_3 = () => {
                   
                 </div>
                   <div className={dd.tex_te}>
-                    <h1>Mercedes-Benz Sprinter VS30 Tourist Comfort</h1>
+                    <h1>Mercedes-Benz Sprinter </h1>
                   </div>
                     <div className={dd.menu_text_1}>
                   <div  className={dd.img_4}>
@@ -371,8 +369,33 @@ const Auto_3 = () => {
                   
                 </div>
                 <div className={dd.menu_bu}>
-                     <a href=""> <button>Связаться с дилером</button></a>
+                      <Button variant="primary" onClick={handleShow}>Связаться</Button>
                     </div>
+                  
+                    <Modal
+        show={show}
+        onHide={handleClose}
+        backdrop="static"
+        keyboard={false}
+      >
+        <Modal.Header closeButton>
+          <Modal.Title> <div className={dd.moda}>
+            <h5><img src={logo} alt="" /> MERCEDES-BENZ</h5>
+            </div></Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+           <div className={dd.type}>
+             <h4>Выберите номер телефона</h4>
+            <p> <input type="radio"  /> <b> +996</b> (705)-25-12-01</p>
+            <p> <input type="radio"  /> <b> +996</b> (775)50-12-50</p>
+            <p> <input type="radio"  /> <b> +996</b> (995)62-89-12</p>
+           </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>Отменить</Button>
+          <Button variant="primary">Звонить </Button>
+        </Modal.Footer>
+      </Modal>
               </div>
              <Footer/>
         </div>

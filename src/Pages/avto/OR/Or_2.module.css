@@ -9,15 +9,16 @@
   
 }
 .menu_tex{
-   position: absolute;
-   right: 30rem;
-   color: rgb(255, 255, 255);
-   text-align: center;
-   margin-top: 20rem;
+    padding-top: 25rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-right: 15rem;
+    margin-left: 15rem;
+  
 }
 
 .menu_tex_1{
-    background-color: rgba(7, 7, 7, 0.493);
+   background-color: rgba(7, 7, 7, 0.493);
    padding: 15px;
    border-radius: 15px;
  
@@ -33,10 +34,8 @@
     padding-top: 18rem;
     
 }
-.menu_tex_2{
-    padding-top: 18rem;
-    
-}
+
+
 .menu_tex_2 h2:hover{
     color: rgba(240, 248, 255, 0);
     transition: 0.7s;
@@ -47,7 +46,7 @@
   width: 70px;
 }
 .text{
-    position: relative;;
+
     background-image: url(../../../foto/foon2222.jpg);
     background-attachment: fixed;
     height: 130vh;
@@ -59,7 +58,7 @@
   display: flex;
   justify-content: center;
   background-color: rgba(255, 228, 196, 0.616);
- align-items: center;
+  align-items: center;
 }
 .color{
     color: azure;
@@ -131,4 +130,88 @@
     padding-bottom: 18.5rem;
     padding-left: 6rem;
     padding-right: 6rem;
+}
+@media  (min-width:350px ) and ( max-width:500px){
+
+.menu_00{
+    height: 100vh;
+}
+    .menu_tex {
+    margin: 0;
+
+}
+.menu_tex_1 h1{
+  font-size: 20px;
+}
+.menu_tex_1 p{
+    font-size: 1rem;
+}
+.menu_tex_2{
+    padding-top: 3rem;
+    
+}
+.text_div p{
+  font-size: 15px;
+  
+}
+.text_div{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.text{
+    height: 100vh;
+}
+.color{
+
+   padding: 0;
+   padding-left: 2rem;
+    padding-right: 2rem;
+   gap:2rem;
+}
+.color_2 p{
+    font-size: 15px;
+}
+.text_1{
+    height: 100vh;
+
+}
+.color_1{
+
+    padding: 0;
+    gap: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.bac{
+    height: 130vh;
+    gap: 0;
+}
+.bac_1{
+    gap: 0;
+    padding: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding: 2rem;
+}
+.bac_2 p{
+  font-size: 15px;
+}
+.bac_3 p{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

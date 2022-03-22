@@ -53,7 +53,7 @@ const Auto_2 = () => {
               <div className={dd.menu_img_1}>
                 <div className={dd.jjjjj}>
                
-                  <h1> Mercedes-Benz E-Класса УНИВЕРСАЛ</h1>
+                  <h1> Mercedes-Benz  универсал</h1>
                   
                 </div>
 
@@ -119,8 +119,8 @@ const Auto_2 = () => {
 
 
               <div className={dd.menu_img_1}>
-                <div className={dd.jjjjj0}>
-                  <h1>Mercedes-Benz седан - универсал</h1>
+                <div className={dd.jjjjj}>
+                  <h1>Mercedes-Benz - универсал</h1>
                 </div>
 
                 <div className={dd.menu_text_1}>
@@ -186,9 +186,9 @@ const Auto_2 = () => {
              
 
               <div className={dd.menu_img_1}>
-                <div className={dd.jjjjj1}>
+                <div className={dd.jjjjj}>
           
-                  <h1>Mercedes-Benz CLA-Класс C118/X118</h1>
+                  <h1>Mercedes-Benz CLA-Класс </h1>
           
                 </div>
 
@@ -253,7 +253,7 @@ const Auto_2 = () => {
 
 
               <div className={dd.menu_img_1}>
-                <div className={dd.jjjjj5}>
+                <div className={dd.jjjjj}>
                   <h1> Mercedes-Benz A-Class</h1>
                 </div>
 
@@ -316,7 +316,7 @@ const Auto_2 = () => {
 
 
               <div className={dd.menu_img_1}>
-                <div className={dd.jjjjj6}>
+                <div className={dd.jjjjj}>
                   <h1>Mercedes-Benz E-Class </h1>
                 </div>
 
@@ -445,58 +445,58 @@ const Auto_2 = () => {
 
 
 
-              <div className={dd.menu_img_abdu1}>
-                <div className={dd.jjjjj10}>
+              <div className={dd.menu_img_9}>
+                <div className={dd.jjjjj}>
                   <h1> Mercedes S-Класс W223</h1>
                 </div>
 
-                <div className={dd.menu_text_abdu}>
-                  \
-                  <div  className={dd.img_abdu}>
-                 <div className={dd.img_abdu1}> 
+                <div className={dd.menu_text_1}>
+                  
+                  <div  className={dd.img_4}>
+                 <div className={dd.img_50}> 
                         <div> <img src={img_33} alt="" /></div>
                         <div><img src={img_34} alt="" /></div>
                   </div>
 
-                  <div className={dd.img_abdu1}>
+                  <div className={dd.img_50}>
                     <img src={img_35} alt="" />
                     <img src={img_36} alt="" />
                   </div>
                   </div>
                   <div>
-                    <div className={dd.menu_text_abdu3}>
+                    <div className={dd.menu_text_10}>
                       <h6>Цена</h6>
                       <h6>4 660 000 сом</h6>
                     </div>
                     <hr />
 
                     <div>
-                      <div className={dd.menu_text_abdu3}>
+                      <div className={dd.menu_text_10}>
                         <h6>Год</h6>
                         <h6>2021</h6>
                       </div>
                       <hr />
-                      <div className={dd.menu_text_abdu3}>
+                      <div className={dd.menu_text_10}>
                         <h6>Кузов</h6>
                         <h6> 	Универсал</h6>
                       </div>
                       <hr />
-                      <div className={dd.menu_text_abdu3}>
+                      <div className={dd.menu_text_10}>
                         <h6>Салон</h6>
                         <h6> Artico</h6>
                       </div>
                       <hr />
-                      <div className={dd.menu_text_abdu3}>
+                      <div className={dd.menu_text_10}>
                         <h6>Страна сборки</h6>
                         <h6> Германия</h6>
                       </div>
                       <hr />
-                      <div className={dd.menu_text_abdu3}>
+                      <div className={dd.menu_text_10}>
                         <h6>Гарантия</h6>
                         <h6>2 года </h6>
                       </div>
                       <hr />
-                      <div className={dd.menu_text_abdu3}>
+                      <div className={dd.menu_text_10}>
                         <h6>Мощность</h6>
                         <h6> 220 л.с.</h6>
                       </div>

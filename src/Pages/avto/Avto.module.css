@@ -9,6 +9,7 @@
 }
 .mane img:hover{
     width: 315px;
+    transition: 0.7s;
 }
 .mane_1{
  display: block;
@@ -33,4 +34,51 @@
 }
 .mane_a:hover{
     color: rgb(10, 112, 95);
+}
+
+@media  (min-width:350px ) and ( max-width:500px){
+
+    .mane img{
+        width: 150px;
+    }
+
+    .mane_a{
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .mane img:hover{
+        width: 200px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
