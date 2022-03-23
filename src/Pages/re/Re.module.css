@@ -176,7 +176,9 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
 
+
 }
+
 .footer_2{
     display: flex;
     flex-direction: column;
@@ -200,25 +202,26 @@
         margin: 0;
     }
     .menu_1 video {
-        width: 40rem;
+        width: 26rem;
        
     }
 
     .input{
          position: absolute;
-         top: -25rem;
-         left: -10rem;
+         top: 1rem;
+         left: -11rem;
           display: flex;
          gap: 0.5rem;
          flex-direction: column;
     
-         background-color: rgba(0, 0, 0, 0.685);
+         background-color: rgba(0, 0, 0, 0.226);
          padding: 0.8rem;
     }
     .input_1 input{
         width: 20rem;
         height: 4vh;
         border: none;
+        border-radius: 10px;
      
      }
      .i_img1 img{
@@ -251,6 +254,8 @@
     }
 
     .input_2 h4{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         cursor: pointer;
         font-family: 'Vollkorn SC', serif;
         outline: 2px solid #fff;
@@ -262,23 +267,121 @@
         font-size: 15px;
     }
     .map{
-        margin-top: 10rem;
+        margin-top: 30rem;
+        display: block;
+         text-align: center;
+         margin-left: 2rem;
+    }
+    .map Map{
+        width: 30PX;
+        height: 20px;
+    }
+    .footer_2 h1{
+        text-align: center;
+        padding-top: 2rem;
     }
 
+}
+@media  (min-width:700 ) and ( max-width:860){
 
+    .menu_1{
+        margin: 0;
+    }
+    .menu_1 video {
+        width: 14rem;
+       
+    }
 
+    .input{
+         position: absolute;
+         top: 20rem;
+         left: 10rem;
+         display: flex;
+         gap: 0.5rem;
+         flex-direction: column;
+    
+         background-color: rgba(0, 0, 0, 0.226);
+         padding: 0.8rem;
+    }
+    .input_1 input{
+        width: 20rem;
+        height: 4vh;
+        border: none;
+        border-radius: 10px;
+     
+     }
+     .i_img1 img{
+        padding-top: 1rem;
+        width:80px ;
+        transition: 0.7s;
+    }
+    .i_img2 img{
+        padding-top: 1rem;
+        width:50px ;
+        transition: 0.7s;
+    }
+    .i_img3 img{
+        padding-top: 1rem;
+        width:55px ;
+        transition: 0.7s;
+    }
+    .i_img4 img{
+        padding-top: 1rem;
+        width:80px ;
+        transition: 0.7s;
+    }
+    .input_2 h4{
+        cursor: pointer;
+        font-family: 'Vollkorn SC', serif;
+        outline: 2px solid #fff;
+        border-radius: 15px;
+        padding: 1rem;
+        
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
+    .input_2 h4{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+        font-family: 'Vollkorn SC', serif;
+        outline: 2px solid #fff;
+        border-radius: 15px;
+        padding: 0.7rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        
+        font-size: 15px;
+    }
+    .map{
+        margin-top: 30rem;
+        display: block;
+         text-align: center;
+         margin-left: 2rem;
+    }
+    .map Map{
+        width: 30PX;
+        height: 20px;
+    }
+    .footer_2 h1{
+        text-align: center;
+        padding-top: 2rem;
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

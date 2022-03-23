@@ -184,9 +184,9 @@ const coordinates = [
         
                 
                 <section className={aa.map}>
-                <YMaps>
+                <YMaps className={aa.map_ap}>
              
-                  <Map defaultState={mapData}   width='60rem' height='500px' >
+                  <Map defaultState={mapData} width="80%" height="40vh"  >
                         {coordinates.map(coordinate => <Placemark geometry={coordinate} />)}
                   </Map>
             </YMaps>
